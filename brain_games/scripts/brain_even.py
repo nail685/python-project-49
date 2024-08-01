@@ -22,8 +22,8 @@ def game():
             print('Correct!')
         else:
             right_answer = 'no' if num % 2 != 0 else 'yes'
-            print(f"{answer} is wrong answer ;(. Correct answer was"
-                  f" {right_answer}.Let's try again, {name}!")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was"
+                  f" '{right_answer}'. \nLet's try again, {name}!")
             break
         i += 1
     if score == 3:
