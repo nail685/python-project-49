@@ -16,10 +16,10 @@ def game():
         answer = prompt.string('Your answer: ')
         if num % 2 == 0 and answer == 'yes':
             score += 1
-            print(f'Correct!')
+            print('Correct!')
         elif num % 2 != 0 and answer == 'no':
             score += 1
-            print(f'Correct!')
+            print('Correct!')
         else:
             right_answer = 'no' if num % 2 != 0 else 'yes'
             print(f"{answer} is wrong answer ;(. Correct answer was"
