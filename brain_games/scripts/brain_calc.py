@@ -20,6 +20,7 @@ def calc():
     else:
         print(f"'{answer}' is wrong answer ;(. Correct answer was"
               f" '{sum_num}'. \nLet's try again, {name}!")
+        return exit
     num = random.randint(1, 100)
     num2 = random.randint(1, 100)
     diff_num = num - num2
@@ -31,6 +32,7 @@ def calc():
     else:
         print(f"'{answer}' is wrong answer ;(. Correct answer was"
               f" '{diff_num}'. \nLet's try again, {name}!")
+        return exit
     num = random.randint(1, 100)
     num2 = random.randint(1, 100)
     multiplication = num * num2
@@ -42,6 +44,7 @@ def calc():
     else:
         print(f"'{answer}' is wrong answer ;(. Correct answer was"
               f" '{multiplication}'. \nLet's try again, {name}!")
+        return exit
     if score == 3:
         print(f'Congratulations, {name}!')
 
