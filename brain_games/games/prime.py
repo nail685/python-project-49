@@ -14,15 +14,11 @@ def prime(n):
     return primes
 
 
-def game():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
+def game(name):
     i = 0
     score = 0
     while i < 3:
-        num = random.randint(2, 200)
+        num = random.randint(2, 20)
         print(f'Question: {num}')
         answer = prompt.string('Your answer: ')
         right_answer = ''
@@ -41,11 +37,3 @@ def game():
         i += 1
     if score == 3:
         print(f'Congratulations, {name}!')
-
-
-def main():
-    game()
-
-
-if __name__ == '__main__':
-    main()

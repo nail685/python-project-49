@@ -23,5 +23,4 @@ def game(name):
                   f" '{right_answer}'. \nLet's try again, {name}!")
             break
         i += 1
-    if score == 3:
-        print(f'Congratulations, {name}!')
+    print(f'Congratulations, {name}!')
