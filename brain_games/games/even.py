@@ -3,10 +3,7 @@ import prompt
 import random
 
 
-def game():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+def game(name):
     i = 0
     score = 0
     while i < 3:
@@ -28,11 +25,3 @@ def game():
         i += 1
     if score == 3:
         print(f'Congratulations, {name}!')
-
-
-def main():
-    game()
-
-
-if __name__ == '__main__':
-    main()
