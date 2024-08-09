@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-import brain_games.games.engine_game as greeting
-import brain_games.games.even as game
+from brain_games.games.even import game
+from brain_games.games.engine_game import greeting
 
 
 def main():
     game(greeting())
-    
+   
 
 if __name__ == '__main__':
     main()
