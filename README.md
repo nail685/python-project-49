@@ -9,6 +9,11 @@ INSTALLATION:
 Install using pip:
 
 pip install git+https://github.com/nail685/python-project-49.git\
+pip install make
+
+Run in terminal:
+
+make
 
 INSTRUCTIONS:
 
@@ -35,3 +40,18 @@ To win this game you have to find the missing number in progression.
 To start the game run brain-progression.
 
 EXAMPLE ASCIINEMA:
+Begin and game brain-gcd
+
+https://asciinema.org/a/TRbpuAgJje8t5sFewyCi2TEv2
+
+Game brain-even
+https://asciinema.org/a/TCrx36aiBXE5ongtcozq89azw
+
+Game brain-calc
+https://asciinema.org/a/OV1x1zDo0fzjvJHP7MbLTbcFJ
+
+Game brain-progression
+https://asciinema.org/a/76LJnGtHVMTLIfNAfMVuEB1d6
+
+Game brain-prime
+https://asciinema.org/a/4UDpxgPd6ZnupansXYkUXAjOc

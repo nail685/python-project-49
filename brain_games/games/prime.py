@@ -16,24 +16,24 @@ def prime(n):
 
 def game(name):
     i = 0
-    score = 0
     while i < 3:
-        num = random.randint(2, 20)
+        num = random.randint(2, 200)
         print(f'Question: {num}')
         answer = prompt.string('Your answer: ')
         right_answer = ''
         n = 200
         primes = prime(n)
+        if num in primes:
+            right_answer = 'yes'
+        else:
+            right_answer = 'no'
         if num in primes and answer == 'yes':
-            score += 1
             print('Correct!')
         elif num not in primes and answer == 'no':
-            score += 1
             print('Correct!')
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was"
                   f" '{right_answer}'. \nLet's try again, {name}!")
             break
         i += 1
-    if score == 3:
         print(f'Congratulations, {name}!')
