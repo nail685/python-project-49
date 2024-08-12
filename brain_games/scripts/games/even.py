@@ -4,7 +4,7 @@ import random
 
 
 def game(name):
-    print('Answer "yes" if the number is even, otherwise answer "no"')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     i = 0
     score = 0
     while i < 3:
