@@ -1,4 +1,5 @@
 .venv
-.vscode
-brain_games/__pycache__/
+/.vscode
+/brain_games/__pycache__
 dist
+brain_games/__pycache__/*
