@@ -1,7 +1,7 @@
 .venv
-.vscode
-.vscode/
-/.vscode
 dist
+../brain_games/__pycache__
 /brain_games/__pycache__
-brain_games/__pycache__/*
+/brain_games/__pycache__/*
+brain_games/__pycache__/*.pyc
+__pycache__
