@@ -4,12 +4,12 @@ import random
 
 
 def game(name):
+    print('Answer "yes" if the number is even, otherwise answer "no"')
     i = 0
     score = 0
     while i < 3:
         num = random.randint(1, 100)
-        print(f'Answer "yes" if the number is even, otherwise answer "no".'
-              f'\nQuestion: {num}')
+        print(f'Question: {num}')
         answer = prompt.string('Your answer: ')
         if num % 2 == 0 and answer == 'yes':
             score += 1
@@ -23,4 +23,5 @@ def game(name):
                   f" '{right_answer}'. \nLet's try again, {name}!")
             break
         i += 1
-    print(f'Congratulations, {name}!')
+    if i == 3:
+        print(f'Congratulations, {name}!')

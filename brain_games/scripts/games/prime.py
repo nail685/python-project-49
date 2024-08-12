@@ -16,6 +16,7 @@ def prime(n):
 
 def game(name):
     i = 0
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     while i < 3:
         num = random.randint(2, 200)
         print(f'Question: {num}')
@@ -36,4 +37,5 @@ def game(name):
                   f" '{right_answer}'. \nLet's try again, {name}!")
             break
         i += 1
+    if i == 3:
         print(f'Congratulations, {name}!')

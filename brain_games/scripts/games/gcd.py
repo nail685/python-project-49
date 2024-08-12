@@ -4,6 +4,7 @@ import random
 
 
 def game(name):
+    print('Find the greatest common divisor of given numbers.')
     i = 0
     score = 0
     while i < 3:
@@ -26,4 +27,5 @@ def game(name):
                   f" '{right_answer}'. \nLet's try again, {name}!")
             break
         i += 1
-    print(f'Congratulations, {name}!')
+    if i == 3:
+        print(f'Congratulations, {name}!')
