@@ -1,5 +1,5 @@
-from brain_games.scripts.games.prime import game
-from brain_games.scripts.games.engine_game import greeting
+from brain_games.games.prime import game
+from brain_games.games.engine_game import greeting
 
 
 def main():
