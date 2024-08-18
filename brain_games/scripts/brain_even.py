@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-from brain_games.games.even import game
-from brain_games.games.engine_game import greeting
+from brain_games.games import even
+from brain_games.engine_game import start_game
 
 
 def main():
-    game(greeting())
+    start_game(even)
 
 
 if __name__ == '__main__':

@@ -1,29 +1,16 @@
 #!/usr/bin/env python3
-import prompt
 import random
 
+QUEST = 'What number is missing in the progression?'
 
-def game(name):
-    print('What number is missing in the progression?')
-    i = 0
-    score = 0
-    while i < 3:
-        num = random.randint(1, 100)
-        d = random.randint(5, 10)
-        prog = list(range(num, num + d + 1))
-        z = random.randint(1, d - 1) - 1
-        prog2 = prog.copy()
-        prog2[z] = '..'
-        print("Question:", *(prog2), sep=' ')
-        answer = int(prompt.string('Your answer: '))
-        right_answer = prog[z]
-        if right_answer == answer:
-            score += 1
-            print('Correct!')
-        else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was"
-                  f" '{right_answer}'. \nLet's try again, {name}!")
-            break
-        i += 1
-    if i == 3:
-        print(f'Congratulations, {name}!')
+
+def get_question_and_correct_answer(c):
+    num = random.randint(1, 100)
+    d = random.randint(5, 15)
+    prog = list(range(num, num + d))
+    z = random.randint(1, d - 1)
+    prog2 = prog.copy()
+    prog2[z] = '..'
+    question = ' '.join(str(num) if num != '..' else num for num in prog2)
+    right_answer = prog[z]
+    return question, str(right_answer), c
