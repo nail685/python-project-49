@@ -42,16 +42,16 @@ To start the game run brain-progression.
 EXAMPLE ASCIINEMA:
 Begin and game brain-gcd
 
-https://asciinema.org/a/TRbpuAgJje8t5sFewyCi2TEv2
+[![asciicast](https://asciinema.org/a/TRbpuAgJje8t5sFewyCi2TEv2.svg)](https://asciinema.org/a/TRbpuAgJje8t5sFewyCi2TEv2)
 
 Game brain-even
-https://asciinema.org/a/TCrx36aiBXE5ongtcozq89azw
+[![asciicast](https://asciinema.org/a/TCrx36aiBXE5ongtcozq89azw.svg)](https://asciinema.org/a/TCrx36aiBXE5ongtcozq89azw)
 
 Game brain-calc
-https://asciinema.org/a/OV1x1zDo0fzjvJHP7MbLTbcFJ
+[![asciicast](https://asciinema.org/a/OV1x1zDo0fzjvJHP7MbLTbcFJ.svg)](https://asciinema.org/a/OV1x1zDo0fzjvJHP7MbLTbcFJ)
 
 Game brain-progression
-https://asciinema.org/a/76LJnGtHVMTLIfNAfMVuEB1d6
+[![asciicast](https://asciinema.org/a/76LJnGtHVMTLIfNAfMVuEB1d6.svg)](https://asciinema.org/a/76LJnGtHVMTLIfNAfMVuEB1d6)
 
 Game brain-prime
-https://asciinema.org/a/4UDpxgPd6ZnupansXYkUXAjOc
+[![asciicast](https://asciinema.org/a/4UDpxgPd6ZnupansXYkUXAjOc.svg)](https://asciinema.org/a/4UDpxgPd6ZnupansXYkUXAjOc)

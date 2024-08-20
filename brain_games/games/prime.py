@@ -4,24 +4,26 @@ import random
 QUEST = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def prime(n):
-    sieve = [True] * n
-    primes = []
-    for p in range(2, n):
-        if sieve[p]:
-            primes.append(p)
-            for i in range(p * p, n, p):
-                sieve[i] = False
-    return primes
+def is_prime(num):
+    """
+    Returns an prime number or not
+    """
+    i = 2
+    while i < num / 2:
+        if num % i == 0:
+            return False
+        i += 1
+    return True
 
 
-def get_question_and_correct_answer(c):
+def get_question_and_correct_answer():
+    """Creates a random number.
+    Returns the game question and the correct answer.
+    """
     num = random.randint(2, 200)
     question = f'{num}'
-    n = 200
-    primes = prime(n)
-    if num in primes:
+    if is_prime(num):
         right_answer = 'yes'
     else:
         right_answer = 'no'
-    return question, right_answer, c
+    return question, right_answer

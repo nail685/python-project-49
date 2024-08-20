@@ -8,9 +8,9 @@ def start_game(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(f'{game.QUEST}')
-    c = 0
     for _ in range(NUMBER_OF_ROUNDS):
-        question, right_answer, count = game.get_question_and_correct_answer(c)
+        question, right_answer = game.get_question_and_correct_answer()
+        right_answer = str(right_answer)
         answer = prompt.string(f'Question: {question}\n'
                                f'Your answer: ')
         if answer != right_answer:
@@ -19,5 +19,4 @@ def start_game(game):
                   f"Let's try again, {name}!")
             return
         print('Correct!')
-        c += 1
     print(f'Congratulations, {name}!')
