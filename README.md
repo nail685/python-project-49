@@ -5,7 +5,7 @@
 
 Play five games and try to win in all of it!
 
-INSTALLATION:
+## INSTALLATION
 
 Install using pip:
 
@@ -16,7 +16,7 @@ Run in terminal:
 
 make
 
-INSTRUCTIONS:
+## INSTRUCTIONS
 
 This is a five math games:
 
@@ -40,7 +40,7 @@ To start the game run brain-prime.
 To win this game you have to find the missing number in progression.
 To start the game run brain-progression.
 
-EXAMPLE ASCIINEMA:
+## EXAMPLE ASCIINEMA
 Begin and game brain-gcd
 
 [![asciicast](https://asciinema.org/a/TRbpuAgJje8t5sFewyCi2TEv2.svg)](https://asciinema.org/a/TRbpuAgJje8t5sFewyCi2TEv2)

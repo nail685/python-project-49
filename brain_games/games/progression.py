@@ -12,9 +12,9 @@ def get_question_and_correct_answer():
     len_progression = random.randint(5, 11)
     progression = list(range(num, num + len_progression))
     hidden_num = random.randint(1, len_progression - 1)
-    print_progression = progression.copy()
-    print_progression[hidden_num] = '..'
-    question = ' '.join(str(num) if num != '..'
-                        else num for num in print_progression)
     right_answer = progression[hidden_num]
+    # print_progression = progression.copy()
+    progression[hidden_num] = '..'
+    question = ' '.join(str(num) for num in progression)
+    # right_answer = progression[hidden_num]
     return question, right_answer
