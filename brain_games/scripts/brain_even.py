@@ -4,6 +4,7 @@ from brain_games.engine_game import start_game
 
 
 def main():
+    """Start game even"""
     start_game(even)
 
 

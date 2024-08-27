@@ -1,5 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/nail685/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/nail685/python-project-49/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/72bdaa715b53dbc42bb2/maintainability)](https://codeclimate.com/github/nail685/python-project-49/maintainability)
 
 
 Play five games and try to win in all of it!
